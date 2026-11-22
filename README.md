@@ -16,7 +16,11 @@ project/<slug>.html     19 project pages (info, gallery, minimap, lightbox, next
 assets/css/style.css    all styles (tokens at the top)
 assets/js/main.js       shared: page transitions, header, clock, audio, email copy, modals, lightbox, mobile menu
 assets/js/home.js | about.js | project.js | playground.js
-assets/img/             Unsplash photos (u001–u114, ids in _unsplash-ids.txt) + m01–m12
+assets/img/projects/    AI-generated project images (<slug>-1…6.jpg, 6 per project)
+assets/img/about/       AI-generated About assets: ico-*.png (9 objects) + ph-*.jpg (9 story photos)
+assets/img/av-*.png     About avatar layers (head + hair lid, original character)
+assets/img/logo-head.png header logo + Credits avatar (black PNG; inverted via CSS filter)
+assets/img/pusher-strip.png  intro push-walk sprite, 8 frames in a row (516x584 each), animated with CSS steps()
 assets/media/           Mixkit video (reel-a…d) + ambient music + sound effects (sfx-a, sfx-b)
 assets/fonts/           Belleza, Inter Tight (Google Fonts, OFL) — self-hosted
 ```
@@ -48,5 +52,5 @@ Brand/name/email/city in the HTML; all project names, clients, awards ("Pixel Gu
 "Visit site" URLs (`https://example.com`), the illustrations (simple original SVGs inline in the HTML).
 
 ## Asset credits
-Photos: Unsplash (Unsplash License). Video: Mixkit (#1610 showreel, #4883, #34487, #50822). Music: Mixkit #443.
+Images: generated with Google Flow (Nano Banana). Video: Mixkit (#1610 showreel, #4883, #34487, #50822). Music: Mixkit #443.
 SFX: Mixkit #2568, #1114. Fonts: Belleza, Inter Tight (SIL OFL).
