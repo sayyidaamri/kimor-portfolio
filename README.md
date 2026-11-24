@@ -1,6 +1,6 @@
-# KIMOR© — portfolio clone (native HTML)
+# KIMOR© — portfolio (native HTML)
 
-Rebuild of the **look and behaviour** of huyml.co as an original site for a fictional designer,
+An original site for a fictional designer,
 **Kian Moraes / KIMOR©** (Lisbon). Plain HTML + CSS + vanilla JS, no framework, no server needed.
 
 ## Run
@@ -24,8 +24,8 @@ assets/img/pusher-strip.png  intro push-walk sprite, 8 frames in a row (516x584 
 assets/media/           Mixkit video (reel-a…d) + ambient music + sound effects (sfx-a, sfx-b)
 assets/fonts/           Belleza, Inter Tight (Google Fonts, OFL) — self-hosted
 ```
-This folder is the built site only. The generator (`tools/content.mjs`, `tools/build.mjs`), research docs and
-`clone-kit/` are not part of it, so the HTML, CSS and JS are edited directly.
+This folder is the built site only. The generator (`tools/content.mjs`, `tools/build.mjs`), and research docs are
+not part of it, so the HTML, CSS and JS are edited directly.
 
 ## Editing copy
 Edit the HTML files directly (brand, socials, credits, project and about text live in `index.html`, `about.html`,
