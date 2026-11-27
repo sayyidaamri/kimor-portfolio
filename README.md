@@ -1,3 +1,5 @@
+![Preview](docs/preview/homepage.gif)
+
 # KIMOR© — portfolio (native HTML)
 
 An original site for a fictional designer,
